@@ -1,4 +1,5 @@
 CREATE ROLE ubuntu;
+ALTER ROLE ubuntu with LOGIN;
 CREATE DATABASE airflow;
 GRANT ALL PRIVILEGES on database airflow to ubuntu;
 ALTER ROLE ubuntu SUPERUSER;
