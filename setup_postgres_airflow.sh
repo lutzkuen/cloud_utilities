@@ -46,5 +46,6 @@ python3.6 ./replace_setting.py ~/airflow/airflow.cfg executor CeleryExecutor ' =
 python3.6 ./replace_setting.py ~/airflow/airflow.cfg sql_alchemy_conn postgresql+psycopg2:///airflow ' = '
 python3.6 ./replace_setting.py ~/airflow/airflow.cfg broker_url amqp://guest:guest@localhost:5672// ' = '
 python3.6 ./replace_setting.py ~/airflow/airflow.cfg celery_result_backend amqp://guest:guest@localhost:5672// ' = '
+python3.6 ./replace_setting.py ~/airflow/airflow.cfg result_backend amqp://guest:guest@localhost:5672// ' = '
 
 airflow initdb
