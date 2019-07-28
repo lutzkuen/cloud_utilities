@@ -8,5 +8,6 @@ python3 -m pip install numpy --user
 python3 -m pip install sklearn --user
 python3 -m pip install lightgbm --user
 python3 -m pip install keras --user
+python3 -m pip install tensorflow --user
 python3 -m pip install cython --user
 python3 -m pip install scikit-optimize --user
