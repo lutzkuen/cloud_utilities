@@ -11,3 +11,4 @@ python3 -m pip install keras --user
 python3 -m pip install tensorflow --user
 python3 -m pip install cython --user
 python3 -m pip install scikit-optimize --user
+python3 -m pip install pillow --user
